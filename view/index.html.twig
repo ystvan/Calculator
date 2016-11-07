@@ -1,0 +1,18 @@
+<h1>{{ title }}</h1>
+<form method="post" action="/Calculator/controller/calc.php">
+    <p>{{ first }}</p>
+    <input type="text" name="FirstNum" title="1">
+    <br>
+    <p>{{ second }}</p>
+    <input type="text" name="SecondNum" title="2">
+    <br>
+    <p>{{ operand }}</p>
+    <br>
+    <select type="text" name="Operand" title="3">
+        <option value="+" selected>Addition</option>
+        <option value="-">Subtraction</option>
+        <option value="*">Multiplication</option>
+        <option value="/">Division</option>
+    </select>
+    <input type="SUBMIT" name="Submit" value="DO THE SHAKE">
+</form>
